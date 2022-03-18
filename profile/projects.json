@@ -1,0 +1,54 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/translate.png",
+            "title": "Language Transaltion App",
+            "bodyText": "- Language Translation App made in React\n -  Many DIffernent Language Support.\n - Dark Mode and Responsive",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://funwidgets.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Translation API",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/newsapp.png",
+            "title": "Daily Latest News App",
+            "bodyText": "- A Daily News App made with Reactjs and Material UI with resposive design for reading latest news",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://sortnewsapp.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "News",
+                "React",
+                "API",
+                "Material UI"
+            ]
+        },
+        {
+            "image" : "images/projects/projectManagement.gif",
+            "title": " Manalyse Project Management Website",
+            "bodyText": "- A project Management Website mande using Reactjs and FireBase as the Backend with login and live chat functionality",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://manalyse.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "Project Management",
+                "React",
+                "Firebase",
+                "Live Chat"
+            ]
+        }
+    ]
+}

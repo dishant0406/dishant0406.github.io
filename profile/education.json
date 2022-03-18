@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Sep 2021 - Present",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"Lovely Professional University, Punjab",
+            "cardDetailedText": "CGPA - 8.4",
+            "icon" : {
+                "src": "images/education/lpu.png"
+            }
+        },
+        {
+            "title": "Apr 2020",
+            "cardTitle": "High School",
+            "cardSubtitle":"Defence Public School, Jaipur",
+            "cardDetailedText": "Marks - 87%",
+            "icon" : {
+                "src": "images/education/dps.png"
+            }
+        }
+    ]
+}

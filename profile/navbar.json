@@ -1,0 +1,31 @@
+{
+    
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "title": "About",
+            "href": "/about"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "Resume",
+            "href": "https://drive.google.com/file/d/1OGRDhF4vNGDq4YHhiP2GStR8hEQ0gs6y/view?usp=sharing",
+            "type": "link"
+        }
+    ]
+
+}
