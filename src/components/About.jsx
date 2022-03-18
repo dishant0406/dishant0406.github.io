@@ -1,37 +1,32 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
+import { Container } from 'react-bootstrap';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
-  introTextContainer: {
+  iconStyle: {
+    height: 75,
+    width: 75,
     margin: 10,
-    flexDirection: 'column',
-    whiteSpace: 'pre-wrap',
-    textAlign: 'left',
-    fontSize: '1.2em',
-    fontWeight: 500,
+    marginBottom: 0,
   },
-  introImageContainer: {
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
+  introTextContainer: {
+    whiteSpace: 'pre-wrap',
   },
 };
 
-function About(props) {
+function Skills(props) {
   const { header } = props;
   const [data, setData] = useState(null);
 
-  const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
+  const renderSkillsIntro = (intro) => (
+    <h4 style={styles.introTextContainer}>
+      <ReactMarkdown children={intro} />
+    </h4>
   );
 
   useEffect(() => {
@@ -46,30 +41,22 @@ function About(props) {
   return (
     <>
       <Header title={header} />
-      <div className="section-content-container">
-        <Container>
-          {data
-            ? (
-              <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
-              </Fade>
-            )
-            : <FallbackSpinner />}
-        </Container>
-      </div>
+      {data ? (
+        <Fade>
+          <div className="section-content-container">
+            <Container>
+              {renderSkillsIntro(data.about)}
+            </Container>
+          </div>
+          <img src={data?.imageSource} alt="profile" style={{ height: '50%', margin: '0 auto' }} />
+        </Fade>
+      ) : <FallbackSpinner /> }
     </>
   );
 }
 
-About.propTypes = {
+Skills.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default About;
+export default Skills;

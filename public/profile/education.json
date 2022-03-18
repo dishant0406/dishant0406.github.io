@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
+            "title": "Sep 2021 - Present",
             "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "cardSubtitle":"Lovely Professional University, Punjab",
+            "cardDetailedText": "CGPA - 8.4",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/lpu.png"
             }
         },
         {
-            "title": "Apr 20XX",
+            "title": "Apr 2020",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"Defence Public School, Jaipur",
+            "cardDetailedText": "Marks - 87%",
+            "icon" : {
+                "src": "images/education/dps.png"
+            }
         }
     ]
 }

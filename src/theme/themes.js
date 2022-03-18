@@ -1,5 +1,8 @@
+import light from '../LightBack.svg';
+import dark from '../DarkBack.svg';
+
 export const lightTheme = {
-  background: '#fff',
+  background: `url(${light}) fixed`,
   color: '#121212',
   accentColor: '#3D84C6',
   chronoTheme: {
@@ -22,7 +25,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  background: '#121212',
+  background: `url(${dark}) fixed`,
   color: '#eee',
   accentColor: '#3D84C6',
   chronoTheme: {
