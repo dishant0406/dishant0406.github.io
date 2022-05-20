@@ -16,6 +16,24 @@
                 "Firebase",
                 "Live Chat"
             ]
+        },
+        {
+            "image" : "images/projects/chatApp.png",
+            "title": "Chatterroom - Real Time Chat App (Full Stack)",
+            "bodyText": "- A Real Time Chat App made using Reactjs in Frontend, Nodejs at the backend, MongoDB for database and socket.io for real time communication",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://chatteroom.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "Real Time Chat App",
+                "React",
+                "Nodejs",
+                "Socket.io",
+                "MERN Stack Stack"
+            ]
         }
     ]
 }
