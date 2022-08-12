@@ -53,8 +53,7 @@ const NavBar = () => {
   return (
     <Navbar
       fixed="top"
-      expand="md"
-      bg="dark"
+      expand="lg"
       variant="dark"
       className="navbar-custom"
       expanded={expanded}

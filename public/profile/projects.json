@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/projectManagement.gif",
             "title": " Manalyse Project Management Website",
-            "bodyText": "- A project Management Website mande using Reactjs and FireBase as the Backend with login and live chat functionality",
+            "bodyText": "- A project Management Website mande using Reactjs and FireBase as the Backend with login and live chat functionality, you can see who is online create a project assign the dates and member and collaborate",
             "links": [
                 {
                     "text": "Live",
@@ -20,7 +20,7 @@
         {
             "image" : "images/projects/chatApp.png",
             "title": "Chatterroom - Real Time Chat App (Full Stack)",
-            "bodyText": "- A Real Time Chat App made using Reactjs in Frontend, Nodejs at the backend, MongoDB for database and socket.io for real time communication",
+            "bodyText": "- A Real Time Chat App made using Reactjs in Frontend, Nodejs at the backend, MongoDB for database and socket.io for real time communication. You can send friend requests in real time see the user status and chat with them",
             "links": [
                 {
                     "text": "Live",
@@ -33,6 +33,42 @@
                 "Nodejs",
                 "Socket.io",
                 "MERN Stack Stack"
+            ]
+        },
+        {
+            "image" : "images/projects/coursuite.gif",
+            "title": "Coursuite - Courses on Different Tech Stack",
+            "bodyText": "- A Course downloading web-app made using Reactjs in the Frontend, and Firebase in the backend. You can get many courses here and even request for courses the request with the highest upvote will be posted first.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://coursuite.co"
+                }
+            ],
+            "tags" : [
+                "Course Downloading App",
+                "React",
+                "Firebase",
+                "Udemy Courses Download"
+            ]
+        },
+        {
+            "image" : "images/projects/cwhite.gif",
+            "title": "cWhiteBoard - A Collabrative WhiteBoard (Full Stack)",
+            "bodyText": "- A Collabrative whiteboard app made using React in the frontend and Nodejs in the backend with express and socket.io for Real time data sharing, you can generate a room and give the room id to your friend and then collaborate on whiteboard",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://cwhiteboard.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "Collabrative WhiteBoard",
+                "React",
+                "Express",
+                "Nodejs",
+                "Socket.io",
+                "Full Stack"
             ]
         }
     ]
